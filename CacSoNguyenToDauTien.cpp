@@ -2,21 +2,17 @@
 #include<math.h>
 
 int main() {
-   int n,count;
+   int n;
    printf("Hay nhap mot so nguyen duong: ");
    scanf("%d",&n);
-   if(n<0){
-   	printf("hay nhap lai mot so nguyen duong");
-   	return 0;
-   }
    printf(" cac so nguyen to dau tien la:");
-   for(int i=2;i<=sqrt(count)&&i<=n;i++)
-   if(count%i!=0||i==2)
-   {
- 
+   int i=2;
+   while(i<=n){
    
-		printf(" %d",i);
+   if(i%2!=0||i==2)
+   {
+ 	printf(" %d",i);
+	}i++;
 	}
-
     return 0;
 }

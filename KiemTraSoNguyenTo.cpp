@@ -12,13 +12,13 @@ int main() {
    {
    count++;
    }
-   if(count==1||n==1){
-   	printf(" %d khong la so nguyen to",n);
+   if(count==1&&n>1){
+   	printf(" %d la so nguyen to",n);
    
 	} 
 	else 
 	{
-		printf(" %d la so nguyen to",n);
+		printf(" %d khong la so nguyen to",n);
 	}
 
     return 0;
